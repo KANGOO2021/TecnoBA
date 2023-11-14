@@ -1,0 +1,13 @@
+create database tecnoba;
+
+CREATE TABLE productos (
+  productos_id int(4) NOT NULL AUTO_INCREMENT,
+  descripcion varchar(100) NOT NULL,
+  precio int(8) NOT NULL,
+  cantidad int(4) NOT NULL,
+  imagen varchar(500) NOT NULL,
+  PRIMARY KEY (productos_id)
+);
+
+select * from productos;
+drop table productos;
